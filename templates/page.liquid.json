@@ -104,8 +104,50 @@
     "9a1c2223-ab9c-4ccc-97ea-ab00e0262f92": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% if page.title =='Liquid' %}\nYes, the title is Liquid\n{% endif %}",
         "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f3aa4e1d-2921-43da-b1df-f970eb2216bf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18550282354977__f3aa4e1d-2921-43da-b1df-f970eb2216bf-1681056275e9ccc637-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Filter",
+            "heading_size": "h1"
+          }
+        },
+        "template--18550282354977__f3aa4e1d-2921-43da-b1df-f970eb2216bf-1681056275e9ccc637-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18550282354977__f3aa4e1d-2921-43da-b1df-f970eb2216bf-1681056275e9ccc637-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18550282354977__f3aa4e1d-2921-43da-b1df-f970eb2216bf-1681056275e9ccc637-0",
+        "template--18550282354977__f3aa4e1d-2921-43da-b1df-f970eb2216bf-1681056275e9ccc637-1",
+        "template--18550282354977__f3aa4e1d-2921-43da-b1df-f970eb2216bf-1681056275e9ccc637-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -116,6 +158,7 @@
     "ee1d343f-fdb1-4908-83b7-e24ebdb0f6e0",
     "71f0a899-2209-4ab0-b200-7c3430c41f29",
     "83b89a48-6dab-4ceb-9329-14f7f9c37ee7",
-    "9a1c2223-ab9c-4ccc-97ea-ab00e0262f92"
+    "9a1c2223-ab9c-4ccc-97ea-ab00e0262f92",
+    "f3aa4e1d-2921-43da-b1df-f970eb2216bf"
   ]
 }
