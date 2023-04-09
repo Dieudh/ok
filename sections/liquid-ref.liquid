@@ -14,7 +14,11 @@
   {{ sectione.settings.liquid-number }}
 {% endif %}
 <h1>Radio</h1>
-{{ section.settings.liquid-radio }}
+{% if section.settings.liquid-radio == 'option-1' %}
+  Option 1 Selected
+{% else %}
+  Option 2 Selected
+{% endif %}
 {% schema %}
  {
  "name": "Liquid Reference",
