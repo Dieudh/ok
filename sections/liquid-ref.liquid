@@ -18,6 +18,8 @@
 {% else %}
   Option 2 Selected
 {% endif %}
+<h1>Select</h1>
+{{ section.settings.liquid-select }}
 {% schema %}
  {
  "name": "Liquid Reference",
@@ -60,6 +62,26 @@
  "max":12,
  "step":3,
  "default":3
+ },
+ {
+ "id": "liquid-select",
+ "type": "select",
+ "label": "Add a select",
+ "options": [
+ {
+ "value": "option-1",
+ "label": "Option 1"
+ },
+ {
+ "value": "option-2",
+ "label": "Option 2"
+ },
+ {
+    "value": "option-3",
+    "label": "Option 3"
+ }
+ ],
+ "default": "option-2"
  }
  ],
  "presets": [
