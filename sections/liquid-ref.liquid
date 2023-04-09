@@ -1,5 +1,9 @@
 <h1>Text</h1>
 <h2>{{ section.settings.liquid-ref }}</h2>
+<h1>Number</h1>
+{% if section.settings.liquid-number > 0 %}
+  {{ sectione.settings.liquid-number }}
+{% endif %}
 <h1>Checkbox</h1>
 {% if section.settings.liquid-checkbox == true %}
   <h2>checkbox is checked</h2>
