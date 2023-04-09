@@ -1,7 +1,7 @@
 {{ section.settings.liquid-range }}
 {% assign blog = section.settings.new-blog %}
 {% unless blog.articles_count == 0 %}
-  There are at leasr 1 blog posts published on this website
+
   {% for article in bllog.article %}
     {{article.image}}
     {{article.title}}
