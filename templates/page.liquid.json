@@ -169,6 +169,15 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "48c6187d-f49f-4fa9-a006-d96c23be259c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == 'Liquid' %}\nThe page title is Liquid\n{% else %}\nThe page title is not Liquid\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -179,6 +188,7 @@
     "9a1c2223-ab9c-4ccc-97ea-ab00e0262f92",
     "f3aa4e1d-2921-43da-b1df-f970eb2216bf",
     "d8f02cb0-2d7a-4d41-970b-7c4c25f9ea3f",
-    "e11a56f0-ddb6-462e-97d1-9b486f2869a2"
+    "e11a56f0-ddb6-462e-97d1-9b486f2869a2",
+    "48c6187d-f49f-4fa9-a006-d96c23be259c"
   ]
 }
