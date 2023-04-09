@@ -6,7 +6,10 @@
         "liquid-ref": "Liquid Reference",
         "liquid-number": 100,
         "liquid-checkbox": true,
-        "liquid-radio": "option-1"
+        "liquid-radio": "option-1",
+        "liquid-range": 3,
+        "liquid-select": "option-2",
+        "liquid-txtarea": ""
       }
     },
     "main": {
@@ -196,6 +199,13 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "428aebcd-fc59-4c62-94d8-f16888d6b0a9": {
+      "type": "blog-posts",
+      "settings": {
+        "liquid-range": 3,
+        "new-blog": ""
+      }
     }
   },
   "order": [
@@ -208,6 +218,7 @@
     "f3aa4e1d-2921-43da-b1df-f970eb2216bf",
     "d8f02cb0-2d7a-4d41-970b-7c4c25f9ea3f",
     "e11a56f0-ddb6-462e-97d1-9b486f2869a2",
-    "48c6187d-f49f-4fa9-a006-d96c23be259c"
+    "48c6187d-f49f-4fa9-a006-d96c23be259c",
+    "428aebcd-fc59-4c62-94d8-f16888d6b0a9"
   ]
 }
