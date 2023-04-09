@@ -1,5 +1,11 @@
 {
   "sections": {
+    "1c89a0e4-cc09-4ff1-9b7f-a94c9552fc1f": {
+      "type": "liquid-ref",
+      "settings": {
+        "liquid-ref": "Custom Headding Added From Shopify Backend"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -187,15 +193,10 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "1c89a0e4-cc09-4ff1-9b7f-a94c9552fc1f": {
-      "type": "liquid-ref",
-      "settings": {
-        "liquid-ref": ""
-      }
     }
   },
   "order": [
+    "1c89a0e4-cc09-4ff1-9b7f-a94c9552fc1f",
     "main",
     "71f0a899-2209-4ab0-b200-7c3430c41f29",
     "ee1d343f-fdb1-4908-83b7-e24ebdb0f6e0",
@@ -204,7 +205,6 @@
     "f3aa4e1d-2921-43da-b1df-f970eb2216bf",
     "d8f02cb0-2d7a-4d41-970b-7c4c25f9ea3f",
     "e11a56f0-ddb6-462e-97d1-9b486f2869a2",
-    "48c6187d-f49f-4fa9-a006-d96c23be259c",
-    "1c89a0e4-cc09-4ff1-9b7f-a94c9552fc1f"
+    "48c6187d-f49f-4fa9-a006-d96c23be259c"
   ]
 }
