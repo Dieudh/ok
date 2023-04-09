@@ -1,5 +1,7 @@
 {{ section.settings.liquid-range }}
-
+{% unless blog.articles_count == 0 %}
+  There are at leasr 1 blog posts published on this website
+{% endunless %}
 {% schema %}
   {
     "name": "New Blog Posts",
