@@ -2,7 +2,7 @@
 {% assign blog = section.settings.new-blog %}
 {% unless blog.articles_count == 0 %}
   
-There are at leasr 1 blog posts published on this website
+
 {% for article in blog.article %}
     {{article.image}}
     {{article.title}}
