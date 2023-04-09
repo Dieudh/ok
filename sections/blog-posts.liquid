@@ -4,8 +4,8 @@
   
 
 {% for article in blog.articles %}
-    {{article.image}}
-    {{article.title}}
+    <img src="{{ article.image }}"/>
+    {{ article.title }}
 {% endfor %}
 {% endunless %}
 
