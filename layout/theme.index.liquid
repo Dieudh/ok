@@ -1,0 +1,18 @@
+    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      {{content_for_header}}
+      {{ content_for_layout }}
+    </main>
+{% assign query = search | escape %}
+
+{% for product in site.products %}
+  {% if product.title contains query %}
+    <h2>{{ product.title }}</h2>
+    <p>{{ product.description }}</p>
+    <p>Price: {{ product.price | money }}</p>
+    <a href="{{ product.url }}">View product</a>
+  {% endif %}
+{% endfor %}
+
+{% if forloop.length == 0 %}
+  <p>No products found.</p>
+{% endif %}
