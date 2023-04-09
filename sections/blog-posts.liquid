@@ -4,14 +4,14 @@
   
 
 {% for article in blog.articles %}
-  <div class="grid_item medium-up--one-third">
+
     <a href="{{ article.url }}">
     <img src="{{ article.image | img_url:'500x' }}"/>
     </a> <br>
     <a href="{{ article }}">
     {{ article.title }}
     </a><br><br>
-  </div>
+
 {% endfor %}
 {% endunless %}
 
