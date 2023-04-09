@@ -4,8 +4,9 @@
       "type": "liquid-ref",
       "settings": {
         "liquid-ref": "Liquid Reference",
-        "liquid-number": 1000000000000000013287555072,
-        "liquid-checkbox": true
+        "liquid-number": 100,
+        "liquid-checkbox": true,
+        "liquid-radio": "option-1"
       }
     },
     "main": {
