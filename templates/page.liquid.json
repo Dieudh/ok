@@ -7,15 +7,6 @@
         "padding_bottom": 28
       }
     },
-    "ee1d343f-fdb1-4908-83b7-e24ebdb0f6e0": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{{ page.title }}",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "71f0a899-2209-4ab0-b200-7c3430c41f29": {
       "type": "rich-text",
       "blocks": {
@@ -55,6 +46,15 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ee1d343f-fdb1-4908-83b7-e24ebdb0f6e0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ page.title }}",
+        "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -164,7 +164,7 @@
     "e11a56f0-ddb6-462e-97d1-9b486f2869a2": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{}",
+        "custom_liquid": "{% unless pagee.title == 'Liquid' %}\nThe pagee title is still Liquid\n{% endunless %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -173,8 +173,8 @@
   },
   "order": [
     "main",
-    "ee1d343f-fdb1-4908-83b7-e24ebdb0f6e0",
     "71f0a899-2209-4ab0-b200-7c3430c41f29",
+    "ee1d343f-fdb1-4908-83b7-e24ebdb0f6e0",
     "83b89a48-6dab-4ceb-9329-14f7f9c37ee7",
     "9a1c2223-ab9c-4ccc-97ea-ab00e0262f92",
     "f3aa4e1d-2921-43da-b1df-f970eb2216bf",
