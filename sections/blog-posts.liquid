@@ -3,7 +3,7 @@
 {% unless blog.articles_count == 0 %}
   
 
-{% for article in blog.article %}
+{% for article in blog.articles %}
     {{article.image}}
     {{article.title}}
 {% endfor %}
