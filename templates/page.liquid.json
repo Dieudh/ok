@@ -204,7 +204,7 @@
     "428aebcd-fc59-4c62-94d8-f16888d6b0a9": {
       "type": "blog-posts",
       "custom_css": [
-        "main{paddding-left: 20px;}"
+        "body{paddding-left: 20px;}"
       ],
       "settings": {
         "liquid-range": 9,
