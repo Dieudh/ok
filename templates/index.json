@@ -35,6 +35,7 @@
         "64558384-f49c-41a7-b116-468af2c80ad9"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/store2.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
